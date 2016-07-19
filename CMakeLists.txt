@@ -152,7 +152,7 @@ IF ( NOT CMAKE_BUILD_TYPE )
 ENDIF ()
 
 # Options controlling the creation of scripting language plugins.
-OPTION(WITH_LUA "Build TeXworks Lua plugin?" ON)
+OPTION(WITH_LUA "Build TeXworks Lua plugin?" OFF)
 OPTION(WITH_PYTHON "Build TeXworks Python plugin?" OFF)
 
 # On OS X we default to linking against the Python libraries provided by Apple

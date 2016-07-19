@@ -696,7 +696,7 @@ void PDFDocumentView::setMouseMode(const MouseMode newMode)
   _toolAccessors.clear();
   _toolAccessors[Qt::ControlModifier + Qt::LeftButton] = getToolByType(DocumentTool::AbstractTool::Tool_ContextClick);
   _toolAccessors[Qt::NoModifier + Qt::RightButton] = getToolByType(DocumentTool::AbstractTool::Tool_ContextMenu);
-  _toolAccessors[Qt::NoModifier + Qt::MiddleButton] = getToolByType(DocumentTool::AbstractTool::Tool_Move);
+  _toolAccessors[Qt::NoModifier + Qt::MidButton] = getToolByType(DocumentTool::AbstractTool::Tool_Move);
   _toolAccessors[Qt::ShiftModifier + Qt::LeftButton] = getToolByType(DocumentTool::AbstractTool::Tool_ZoomIn);
   _toolAccessors[Qt::AltModifier + Qt::LeftButton] = getToolByType(DocumentTool::AbstractTool::Tool_ZoomOut);
   // Other tools: Tool_MagnifyingGlass, Tool_MarqueeZoom, Tool_Move
